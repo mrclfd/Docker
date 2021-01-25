@@ -144,7 +144,7 @@ RUN set -ex; \
 		\) -exec rm -rf '{}' +; \
 	rm -f get-pip.py
 
-# Install apt for ProjectAlf
+# Install apt for ProjektBlqnk
 RUN apt-get -qq update && apt-get -qq install -y \
     apt-utils \
     aria2 \
