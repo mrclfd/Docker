@@ -1,5 +1,5 @@
 FROM ubuntu:groovy
-LABEL maintainer "Alfiananda P.A <genengbendo12@gmail.com>"
+LABEL maintainer "mrclfd <mrclfd@yahoo.com>"
 
 RUN ln -fs /usr/share/zoneinfo/Asia/Jakarta /etc/localtime
 RUN apt update && apt -y upgrade && apt install -y tzdata locales
@@ -182,6 +182,6 @@ RUN wget -N https://chromedriver.storage.googleapis.com/86.0.4240.22/chromedrive
     chmod 0755 /usr/bin/chromedriver
     
 # Install python requirements
-RUN pip3 install -r https://raw.githubusercontent.com/alfianandaa/ProjectAlf/master/requirements.txt
+RUN pip3 install -r https://raw.githubusercontent.com/mrclfd/ProjektBlqnk/master/requirements.txt
 
 CMD ["bash"]
