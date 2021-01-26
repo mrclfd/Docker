@@ -4,7 +4,7 @@ on:
     branches:
       - master
   schedule:
-    - cron: '0 16 * * *' # Auto build Docker every midnight
+    - cron: '0 17 * * *' # Auto build Docker every midnight
 jobs:
   build:
     runs-on: ubuntu-latest
